@@ -1,11 +1,11 @@
 =begin
-Calc_oct
+Calc_octahedron
     A ruby program to calculate volume of the octahedron
     from the relative coordinates to take summention of
     the volume of four tetrahedrons.
 =end
 
-class Calc_oct
+class Calc_octahedron
 
     def self.calc_oct(a, b, c, d, e, f)
         # Parameters
