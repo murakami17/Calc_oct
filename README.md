@@ -1,6 +1,9 @@
 # Calc_Octahedron
 
-A ruby program to calculate volume of octahedron from the relative coordinates to take summation of volume of four tetrahedrons.
+![Ruby-version](https://img.shields.io/badge/Ruby-2.5-yellow.svg)
+![MIT-LICENSE](https://img.shields.io/badge/License-MIT-blue.svg)
+
+Ruby program to calculate volume of octahedron from to take summation of volume of four tetrahedrons.
 
 ## Description
 
@@ -24,7 +27,7 @@ Call calc_octahedron with six arguments, cartesian coordinates in the form of 3-
 a = [0.1, 0.2, 0.3]
 b = [0.4, 0.5, 0.6]
 ....
-calc_octahedron(a, b, c, d, e, f)
+volume = calc_octahedron(a, b, c, d, e, f)
 ~~~
 
 Calculation result is returned. Note that you also call calc_tetrahedron method with four arguments.
